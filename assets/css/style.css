@@ -301,7 +301,7 @@ nav{
 
 
 .home-item-price {
-    border: 1px solid black;
+    border: 1px solid rgba(136, 136, 136, 0.633);
 }
 
 
@@ -331,7 +331,7 @@ nav{
    }
 
    .home-last-update {
-    border: 1px solid black;
+    border: 1px solid rgba(136, 136, 136, 0.633);
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
@@ -340,7 +340,7 @@ nav{
    }
 
    .home-pay {
-    border: 1px solid black;
+    border: 1px solid rgba(136, 136, 136, 0.633);
     margin-top: 20px;
     border-radius: 5px;
     background: #fff;
