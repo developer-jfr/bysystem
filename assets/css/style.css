@@ -178,7 +178,7 @@ nav{
 
 .home-main-content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     gap: 30px;
 }
 
@@ -508,12 +508,17 @@ nav{
     .feedback {
         left: 94%;
     }
+
+    .home-main-content {
+        grid-template-columns: 2fr 1fr;
+    }
 }
 
 @media screen and (max-width: 1200px) {
     .feedback {
         left: 93%;
     }
+
 }
 
 @media all and (max-width: 900px){
