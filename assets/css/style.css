@@ -486,9 +486,31 @@ nav{
 .privacy {
     display: none;
 }
+
+/* ================= Feedback =========================== */
+
+.feedback {
+    position: absolute;
+    top: 30%;
+    left: 95.4%;
+    transform: rotate(-90deg);
+}
 /* =================== Responsive ======================== */
 
+@media screen and (max-width: 1400px) {
+    .feedback {
+        left: 94%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .feedback {
+        left: 93%;
+    }
+}
+
 @media all and (max-width: 900px){
+
     nav{
       padding: 5px 30px;
     }
@@ -509,6 +531,9 @@ nav{
   }
 
 @media screen and (max-width: 990px) {
+    .feedback {
+        display: none;
+    }
      .home-main-content {
         grid-template-columns: 1fr;
      }
