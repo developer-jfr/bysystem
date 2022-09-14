@@ -140,6 +140,7 @@ nav{
     color: #0853a2;
 }
 
+
 .home-download div span {
     color: #0853a2;
     font-size: 15px;
@@ -189,12 +190,18 @@ nav{
 .home-content-first {
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
+}
+
+.home-content-first p {
+    padding-top: 10px;
 }
 
 
 .home-content-first a {
     color: #000;
     text-decoration: none;
+    padding-top: 10px;
 }
 
 .home-content-first img {
@@ -491,7 +498,7 @@ nav{
 
 .feedback {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 95.4%;
     transform: rotate(-90deg);
 }
